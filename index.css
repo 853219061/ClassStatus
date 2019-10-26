@@ -279,9 +279,11 @@ color:rgb(255,82,101)
 .turn-person-btn{
     text-align: center;
     margin-top:40px;
+  
 }
 
 .turn-person-btn span{
+    cursor: pointer;
     display: inline-block;
     text-decoration: none;
     border:2px solid rgb(58,147,247);
@@ -290,7 +292,12 @@ color:rgb(255,82,101)
     font-size:25px;
     color:rgb(58,147,247);
     margin: 0 auto;
+}
 
+.turn-person-btn span:hover{
+    background-color: rgb(58,147,247);
+    color:#fff;
+    border:2px solid transparent;
 }
 
 .turn-person-list{
@@ -343,9 +350,13 @@ color:rgb(255,82,101)
     display: inline-block;
     width:80px;
     color:#fff;
-     font-weight: 800px; 
     font-size: 20px;
-    padding :2  20px;
+    padding :2px  4px;
+    cursor: pointer;
+}
+
+.session-title>ul>li>span:hover{
+   background-color:rgba(255,255,255,0.5)
 }
 
 .session-content{
@@ -476,7 +487,7 @@ color:rgb(255,82,101)
 
 .part-list-table{ 
     overflow: auto;
-    height: 800px;
+    height: 796px;
     
  }
 
@@ -496,6 +507,10 @@ color:rgb(255,82,101)
 
 .part-list-table>table  tbody{
     overflow-y: auto;
+}
+
+.part-list-table>table  tbody tr{
+   cursor: pointer;
 }
 
 .part-list-table>table td{
